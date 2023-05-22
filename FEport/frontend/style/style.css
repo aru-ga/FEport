@@ -4,5 +4,6 @@
 }
 
 .hero{
-  flex: flexbox;
+  display: flex;
+  content-align= "center";
 }
