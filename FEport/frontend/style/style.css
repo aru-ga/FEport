@@ -5,5 +5,13 @@
 
 .hero{
   display: flex;
-  content-align= "center";
+  content-align: center;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a{
+  text-decoration:none;
 }
