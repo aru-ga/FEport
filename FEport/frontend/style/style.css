@@ -16,7 +16,23 @@ nav ul .nav-links{
 }
 
 .hero-img{
+  display: flex;
   border-radius: 2em;
+  content-align: center;
+}
+
+.hero-typo p{
+  size: 1em;
+  color:#f1f1f1;
+}
+
+.hero-typo h1{
+  color: violet;
+  text-align: center;
+}
+
+.hero-typo h3{
+  color: #f1f1f1;
 }
 
 ul li {
