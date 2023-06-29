@@ -39,8 +39,9 @@ nav ul li a {
 .btn-su {
     color: #001AFF;
     font-weight: bold;
-    border: .1em solid rgba(84, 84, 84, 0.406);
-    padding: .4rem .9rem;
+    border: .2em solid rgba(17, 17, 17, .9);
+    border-radius: .5em;
+    padding: .4rem 1rem;
 }
 
 section.hero {
