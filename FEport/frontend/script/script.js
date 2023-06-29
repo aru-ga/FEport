@@ -1,4 +1,10 @@
-let title = document.getElementbyID("title");
-
-for (i = 0; i < title; i++){
-}
+window.addEventListener('scroll', function() {
+    let navbar = document.getElementById('header-bg');
+    
+    if (window.scrollY > 0) {
+      navbar.classList.add('sticky-nav');
+    } else {
+      navbar.classList.remove('sticky-nav');
+    }
+  });
+  
