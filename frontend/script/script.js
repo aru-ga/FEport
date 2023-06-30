@@ -8,3 +8,12 @@ window.addEventListener('scroll', function() {
     }
   });
   
+$(".dm-switch").on("click", function(){
+  if ($("body").hasClass("dm")){
+      $("body").removeClass("dm");
+      $(".dm-switch").text("terangin aj bg");
+  }
+  else{
+    $("body").addClass("dm");
+  }
+})

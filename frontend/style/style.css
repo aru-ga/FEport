@@ -150,3 +150,12 @@ body{
 .cards-1 > .cards-typo{
   margin: .5em .8em;
 }
+
+.dm-switch{
+  cursor: pointer;
+}
+
+.dm{
+  background-color: #0b0b0b;
+  color: #f1f1f1;
+}
