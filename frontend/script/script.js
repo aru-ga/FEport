@@ -1,5 +1,5 @@
 window.addEventListener('scroll', function() {
-    let navbar = $('#header-bg');
+    let navbar = $('.header-bg');
     
     if (window.scrollY > 0) {
       navbar.classList.add('sticky-nav');
@@ -8,13 +8,13 @@ window.addEventListener('scroll', function() {
     }
   });
   
-$(".dm-switch").on("click", function(){
-  if ($("body").hasClass("dm")){
-      $("body").removeClass("dm");
-      $(".dm-switch").text("terangin aj bg");
-  }
-  else{
-    $("body").addClass("dm");
-    $(".dm-switch").text(" ");
-  }
-})
+// $(".dm-switch").on("click", function(){
+//   if ($("body").hasClass("dm")){
+//       $("body").removeClass("dm");
+//       $(".dm-switch").text("terangin aj bg");
+//   }
+//   else{
+//     $("body").addClass("dm");
+//     $(".dm-switch").text("terangin aj bg");
+//   }
+// })
