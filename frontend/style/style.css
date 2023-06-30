@@ -162,7 +162,7 @@ body{
 
 /* screeeeeen queries */
 
-@media  screen and (max-width: 769px){
+@media  screen and (max-width: 768px){
   .hero{
     margin: 10vh 1%;
     border-radius: 1em;
