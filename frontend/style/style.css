@@ -4,6 +4,21 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  background-color: transparent;
+  color: #030303;
+}
+
+.dm-switch{
+  cursor: pointer;
+}
+
+.dm{
+  background-color: #0b0b0b;
+  color: #f1f1f1;
+}
+
+
 *{
   padding: 0;
   margin: 0;
@@ -41,8 +56,8 @@ body{
   height: 3.5em;
 }
 
-.sticky-nav{
-  background-color: #ffffff !important;
+.nav-dark{
+  background-color: #ffffff;
 }
 
 .nav-links li a{
@@ -151,18 +166,23 @@ body{
   margin: .5em .8em;
 }
 
-.dm-switch{
-  cursor: pointer;
-}
-
-.dm{
-  background-color: #0b0b0b;
-  color: #f1f1f1;
-}
 
 /* screeeeeen queries */
 
 @media  screen and (max-width: 768px){
+  
+  .nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5em;
+    font-size: .1em;
+  }
+
+  .nav-links li a{
+    font-size: .8em;
+  }
+
   .hero{
     margin: 10vh 1%;
     border-radius: 1em;
@@ -214,10 +234,10 @@ body{
     font-size: .8em;
   }
 
-  
 .title{
-  text-align: justify;
-  width: 25em;
-  font-size: .8em;
+  text-align: Center;
+  margin: .5em 0;
+  max-width: 30em;
+  font-size: .7em;
 }
 }
