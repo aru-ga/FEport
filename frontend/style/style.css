@@ -159,3 +159,65 @@ body{
   background-color: #0b0b0b;
   color: #f1f1f1;
 }
+
+/* screeeeeen queries */
+
+@media  screen and (max-width: 769px){
+  .hero{
+    margin: 10vh 1%;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: fill;
+    width: 100%;
+    height: 40vh;
+  }
+
+  .hero p{
+    font-size: .8em;
+    color:#f1f1f1;
+    font-weight: light;
+    text-align: center;
+  }
+
+  .bio{
+    margin: 5em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bio p{
+    font-size: .7em;
+    width: 30em;
+    text-align: center;
+  }
+  
+  .bio h2{
+    margin-top: .5em;
+    font-size: 1em;
+    text-align: center;
+    max-width: 20rem;
+  }
+
+  .nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 3.5em;
+    font-size: .8em;
+  }
+
+  
+.title{
+  text-align: justify;
+  width: 25em;
+  font-size: .8em;
+}
+}
