@@ -15,5 +15,6 @@ $(".dm-switch").on("click", function(){
   }
   else{
     $("body").addClass("dm");
+    $(".dm-switch").text(" ");
   }
 })
