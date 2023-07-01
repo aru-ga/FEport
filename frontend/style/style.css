@@ -119,7 +119,7 @@ a {
   margin-top: .5em;
   font-size: 2rem;
   text-align: center;
-  width: 70rem;
+  max-width: 70rem;
 }
 
 .project {
@@ -130,7 +130,7 @@ a {
 
 .title {
   text-align: center;
-  width: 50rem;
+  max-width: 60rem;
 }
 
 .project-cards {
@@ -153,6 +153,7 @@ a {
   height: max-content;
   background-color: #fffafa;
   color: #030303;
+  margin-bottom: 5%;
 }
 
 .card:hover {
@@ -160,8 +161,13 @@ a {
   box-shadow: 0px 0px 10px 0px rgba(20, 41, 70, 0.8);
 }
 
+.card-typo p{
+  color: #868686;
+  font-size: .8em;
+}
+
 .card img {
-  width: 30vw;
+  width: 32vw;
 }
 
 .card .card-typo {
@@ -179,7 +185,7 @@ a {
   background-image: url("../img/bg.jpg");
   background-size: cover;
   height: 50vh;
-  width: 90vw;
+  width: 68vw;
 }
 
 .contact-1{
@@ -211,7 +217,9 @@ a {
 
 .contact-2 input:active,
 .contact-2 input:focus {
-  border-bottom-color: #142946;
+  border-bottom-color: #ff7d7d;
+  font-style: 1em;
+  border-bottom: .2em solid #ff7d7d;
 }
 
 .about-foot{
@@ -329,7 +337,7 @@ a {
   }
 
   .card img {
-    width: 30vw;
+    width: 35vw;
   }
 
   .card .card-typo {
@@ -347,7 +355,7 @@ a {
   
   .contact-form{
     border-radius: 1em;
-    gap: 10%;
+    gap: 5%;
     display: flex;
     flex-direction: row;
     padding-top: 5vh; 
@@ -356,7 +364,7 @@ a {
     background-image: url(../img/bg.jpg);
     background-size: cover;
     height: 25vh;
-    width: 90vw;
+    width: 80vw;
   }
 
   .contact-1{
@@ -364,7 +372,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: .8em;
+    font-size: .5em;
   }
 
   .contact-2{
@@ -372,6 +380,10 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .contact-2 label{
+    font-size: .8em;
   }
 
   .contact-2 input {
@@ -385,10 +397,12 @@ a {
     background-color: transparent;
     transition: border-bottom-color 0.3s ease;
     color: #f1f1f1;
+    font-size: .8em;
   }
 
   .contact-2 input:active,
   .contact-2 input:focus {
+    border-bottom: .2em solid #ff7d7d;
     border-bottom-color: #ff7d7d;
   }
 
