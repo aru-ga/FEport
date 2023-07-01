@@ -19,9 +19,6 @@ function handleScroll() {
 
 window.addEventListener('scroll', handleScroll);
 
-
-
-
 function toggleDarkMode() {
   document.body.classList.toggle('dm');
   let navLinks = document.getElementsByClassName('linkes');

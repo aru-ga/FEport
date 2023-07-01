@@ -14,6 +14,41 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+#scroll-down {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  transform: translateX(-50%);
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  animation: scrollAnimation 1s infinite;
+}
+
+#scroll-down .arrow {
+  margin-top: 1.2em;
+  border: solid rgb(20, 41, 70);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+}
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(12px);
+    opacity: 1;
+  }
+}
+
+
 .dm-switch {
   cursor: pointer;
 }
@@ -418,6 +453,14 @@ a {
   max-width: 75vw;
   font-size: small;
   font-weight: normal;
+}
+
+#scroll-down .arrow {
+  border: solid rgb(20, 41, 70);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
 }
 
 }
