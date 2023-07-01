@@ -1,99 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FEport - Aru</title>
-    <link rel="stylesheet" href="frontend/style/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FEport - Aru</title>
+  <link rel="stylesheet" href="frontend/style/style.css">
 </head>
+
 <body>
-    <header class="header-bg">
-        <nav>
-            <ul>
-                <div class="nav-links" id="nav-links">
-                    <li><a class="active" href="#landing-sect">Home</a></li>
-                    <li><a href="#profile-sect">Profile</a></li>
-                    <li><a href="#project-sect">Projects</a></li>
-                    <li><a href="#contact-sect">Contact</a></li>
-                    <li><a href="#about-sect">About</a></li>
-                    <li> <span class="dm-switch" onclick="darkMode()">silau meen</span></li>
-                </div>
-            </ul>
-        </nav>
-    </header>
-    <main>        
-        <section class="landing" id="landing-sect">
-            <div class="hero">
-                    <p>Here I will show my experiences along with my skill</p>
-                    <h1>Web Developer</h1>
-                    <h3>Muhammad Fargazzi | Arga</h3>
-            </div>
-        </section>
-        <section class="profile-sect" id="profile-sect">
-            <div class="bio">
-                <p>An undergraduate college student at night class while going to office at the office hour</p>
-                <h2>Mostly I do anything around the web, unconsidering its a Front nor Back end.</h2>
-                <span class="socmed-span"></span>
-            </div>
-        </section>
-                
-        <section class="project" id="project-sect">
-            <div class="title">
-                <h2>Mostly project I've done is Frontend project which I convert a UI or mockup from various kind either web or mobile design into HTML, CSS & Javascript code</h2>
-            </div>
-            <div class="project-cards">
-                    <div class="cards-1">
-                        <img src="frontend/img/jobless.jpg" alt="">
-                        <div class="cards-typo">
-                            <h3>Jobless</h3>
-                            <p>Single Page App</p>
-                        </div>
-                    </div>     
-                <div class="cards-1">
-                    <img src="frontend/img/jobless.jpg" alt="">
-                    <div class="cards-typo">
-                        <h3>Jobless</h3>
-                        <p>Single Page App</p>
-                    </div>
-                </div>
-                <div class="cards-1">
-                    <img src="frontend/img/jobless.jpg" alt="">
-                    <div class="cards-typo">
-                        <h3>Jobless</h3>
-                        <p>Single Page App</p>
-                    </div>
-                </div>
-                <div class="cards-1">
-                    <img src="frontend/img/jobless.jpg" alt="">
-                    <div class="cards-typo">
-                        <h3>Jobless</h3>
-                        <p>Single Page App</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-                
-    </main>
-    <footer>
-        <div class="about-foot" id="about-sect">
-            <div class="tech-used">
-                <img src="frontend/img/html5.png" alt="">
-                <img src="frontend/img/css3.png" alt="">
-                <img src="frontend/img/js.png" alt="">
-            </div>
-            <div class="soc-media">
-                <ul>
-                    <li>Linkediiin</li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><a href="#landing-sect">UP UP UP!</a></li>
-                </ul>
+  <header class="header-bg">
+    <nav>
+      <div class="nav-links" id="nav-links">
+        <a class="linkes active" href="#landing-sect">Home</a>
+        <a class="linkes" href="#profile-sect">Profile</a>
+        <a class="linkes" href="#project-sect">Projects</a>
+        <a class="linkes" href="#contact-sect">Contact</a>
+        <a class="linkes" href="#about-sect">About</a>
+        <span class="dm-switch" onclick="toggleDarkMode()">Toggle Dark Mode</span>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="landing" id="landing-sect">
+      <div class="hero">
+        <p>Here I will show my experiences along with my skills</p>
+        <h1>Web Developer</h1>
+        <h3>Muhammad Fargazzi | Arga</h3>
+      </div>
+    </section>
+    <section class="profile-sect" id="profile-sect">
+      <div class="bio">
+        <p>An undergraduate college student attending night classes while working during office hours</p>
+        <h2>I work on both frontend and backend web development.</h2>
+        <span class="socmed-span"></span>
+      </div>
+    </section>
+
+    <section class="project" id="project-sect">
+      <div class="title">
+        <h2>Most of the projects I've done are frontend projects where I convert UI or mockups into HTML, CSS, and JavaScript code.</h2>
+      </div>
+      <div class="project-cards">
+        <div class="card">
+          <img src="frontend/img/jobless.jpg" alt="">
+          <div class="card-typo">
+            <h3>Jobless</h3>
+            <p>Single Page App</p>
+          </div>
         </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-    <script src="frontend/script/script.js"></script>    
+        <div class="card">
+          <img src="frontend/img/jobless.jpg" alt="">
+          <div class="card-typo">
+            <h3>Jobless</h3>
+            <p>Single Page App</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="frontend/img/jobless.jpg" alt="">
+          <div class="card-typo">
+            <h3>Jobless</h3>
+            <p>Single Page App</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="frontend/img/jobless.jpg" alt="">
+          <div class="card-typo">
+            <h3>Jobless</h3>
+            <p>Single Page App</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <div class="about-foot" id="about-sect">
+      <div class="tech-used">
+        <img src="frontend/img/html5.png" alt="">
+        <img src="frontend/img/css3.png" alt="">
+        <img src="frontend/img/js.png" alt="">
+      </div>
+      <div class="soc-media">
+        <ul>
+          <li>LinkedIn</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#landing-sect">Back to Top</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <script src="frontend/script/script.js"></script>
 </body>
+
 </html>
