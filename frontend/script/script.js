@@ -16,8 +16,6 @@ window.addEventListener('scroll', function() {
   }
 });
 
-
-
 function toggleDarkMode() {
   document.body.classList.toggle('dm');
   let navLinks = document.getElementsByClassName('linkes');
