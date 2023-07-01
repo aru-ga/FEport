@@ -1,9 +1,10 @@
-let navbarCollection = document.getElementsByClassName('linkes');
+const navbarCollection = document.getElementsByClassName('linkes');
 
-window.addEventListener('scroll', function() {
+function handleScroll() {
   if (!document.body.classList.contains('dm')) {
+    const scrollThreshold = window.innerHeight * 0.8;
     for (let i = 0; i < navbarCollection.length; i++) {
-      if (window.scrollY > (window.innerHeight * 0.8)) {
+      if (window.scrollY > scrollThreshold) {
         navbarCollection[i].classList.add('nav-dark');
       } else {
         navbarCollection[i].classList.remove('nav-dark');
@@ -14,7 +15,12 @@ window.addEventListener('scroll', function() {
       navbarCollection[i].classList.remove('nav-dark');
     }
   }
-});
+}
+
+window.addEventListener('scroll', handleScroll);
+
+
+
 
 function toggleDarkMode() {
   document.body.classList.toggle('dm');
