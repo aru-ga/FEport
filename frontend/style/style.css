@@ -61,6 +61,11 @@ a {
   color: #f1f1f1;
 }
 
+.nav-dark .linkes{
+  color: #ff7d7d !important;
+}
+
+
 .landing {
   display: flex;
 }
