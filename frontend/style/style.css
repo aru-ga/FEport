@@ -252,11 +252,12 @@ a {
     padding-top: 1em;
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.8);
     transition: 250ms;
     width: inherit;
     height: max-content;
-    background-color: #f1f1f1;
+    background-color: #fcfcfc;
+    
+    box-shadow: 0px 0px 10px 0px rgba(143, 44, 209, 0.8);
   }
 
   .card:hover {
