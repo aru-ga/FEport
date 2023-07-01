@@ -256,8 +256,6 @@ a {
     width: inherit;
     height: max-content;
     background-color: #fcfcfc;
-    
-    box-shadow: 0px 0px 10px 0px rgba(143, 44, 209, 0.8);
   }
 
   .card:hover {
